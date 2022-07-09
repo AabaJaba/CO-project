@@ -143,7 +143,7 @@ for i in range(len((inst))):
         assert hltcount==0, f'Error in line {i}:"hlt" must be used only once'  
         assert "hlt" in templist[-1], f'Error in line {i}:"hlt" must be the last instruction'
         hltcount+=1
-        inst[i][0]='01010100000000000'
+        inst[i][0]='0101000000000000'
     elif inst[i][0] not in instructions:
             assert False, f'Error in line {i}: Invalid Argument'
 assert hltcount!=0, '"hlt" instruction is absent'
