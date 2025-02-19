@@ -109,5 +109,5 @@ This project is open-source and free to use for educational purposes.
 
 ## Authors
 
-Developed by [Your Name] and contributors.
+Developed by Navnoor Singh
 
